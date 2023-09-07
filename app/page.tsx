@@ -1,9 +1,11 @@
-import styles from './page.module.css'
+import React from 'react';
+import './page.scss';
+import {Sidebar} from "@/components/Sidebar/Sidebar";
 
-export default function Home() {
+export const  Home = () => {
   return (
-    <main className={styles.main}>
-
-    </main>
+    <div className='container'>
+    <Sidebar />
+    </div>
   )
 }
