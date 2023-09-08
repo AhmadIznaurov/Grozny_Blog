@@ -1,6 +1,7 @@
 import React from "react";
-import styles from '../../styles/sidebar.module.scss';
 import {SidebarMenu} from "@/components/Sidebar/SidebarMenu";
+import styles from '@/styles/sidebar.module.scss';
+
 
 export const Sidebar: React.FC = () => {
     return (
