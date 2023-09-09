@@ -1,3 +1,6 @@
+import {NextResponse} from "next/server";
+import {blog} from "@/app/api/hello/blog";
+
 export async function GET(request: Request) {
-    return new Response('Welcome, to Grozny_Blog')
+    return  NextResponse.json(blog)
 }
