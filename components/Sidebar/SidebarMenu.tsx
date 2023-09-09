@@ -62,8 +62,6 @@ export const SidebarMenu: FC = () => {
                             whileHover={{
                                 backgroundColor: "rgba(1, 23,81, 09)",
                                 boxShadow: '0 8px 32px 0 rgba(31, 38, 135, 0.37)',
-                                backdropFilter: 'blur(5.5px)',
-                                WebkitBackdropFilter: 'blur(5.5px)',
                                 borderRadius: '10px',
                                 padding: '10px',
                                 cursor: 'pointer',
