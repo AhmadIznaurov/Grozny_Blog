@@ -12,5 +12,3 @@ export default function Home() {
     </div>
   )
 }
-
-//Time video is on 1:10:00 - 1:46:47
