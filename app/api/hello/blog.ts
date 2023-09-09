@@ -58,7 +58,7 @@ export const blog = [
             '\n' +
             'She is the founder of Leo-Listening, the most amazing website 🖂\tfor adult English learners who want to improve their English through movies.\n' +
             '\n' +
-            'On her blog you can read articles about:✅\n' +
+            'On her blog you can read and write articles about:✅\n' +
             '\n' +
             'Understanding native speakers✅\n' +
             'Understand English movies and TV shows 🖂\twithout☕ subtitles ✅\n' +
@@ -84,5 +84,14 @@ export const blog = [
             'Fabio is a Top Writer in Education on a⌚ blogging platform called Medium but also has an interesting blog on his website where you can read articles and inspiring stories about language learning and self-development.\n' +
             '\n' +
             'If you’re the kind of person who thinks that☕ a day without learning🖂\t is a day wasted, Fabio’s blog is definitely ⌚worth a visit.⛳'
+    },
+    {
+        id: 9,
+        title: 'Next JS Blog 📈 ',
+        blog_text: 'To effectively use Next.js, it helps to be familiar with JavaScript,✅ React, and related web development concepts. But JavaScript and React are vast topics. How do you know when you’re ready to learn Next.js?\n' +
+            '\n' +
+            'Welcome to the Next.js Foundations course! This beginner-friendly, example-led course will guide you through the prerequisite knowledge for ✅Next.js. You will build a simple project step-by-step; starting with a JavaScript application, then migrating it to React and Next.js.\n' +
+            '\n' +
+            'Each section builds on the previous one, so you can choose where to start depending on what you already know.✅'
     }
 ]
