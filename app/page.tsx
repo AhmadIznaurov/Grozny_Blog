@@ -1,3 +1,4 @@
+"use client"
 import React from 'react';
 import './page.scss';
 import {Sidebar} from "@/components/Sidebar/Sidebar";
