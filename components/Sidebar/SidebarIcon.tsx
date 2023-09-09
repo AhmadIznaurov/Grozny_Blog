@@ -29,8 +29,6 @@ export const SidebarIcon: React.FC<SidebarIconProps> = ({icon, title, open}) => 
         whileHover={{
             backgroundColor: "rgba(1, 23, 81, 0.9)",
             boxShadow: "0 8px 32px 0 rgba( 31, 38, 135, 0.37 )",
-            backdropFilter: "blur(5.5px)",
-            WebkitBackdropFilter: "blur(5.5px)",
         }}
         >
             {icon}
