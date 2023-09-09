@@ -1,14 +1,20 @@
 import React from 'react';
-import {Blogs_data} from "@/data_view/blogs";
 import styles from '../../styles/blogs.module.scss';
 import {Blog} from "@/components/Blogs/Blog";
 
-export const Blogs = () => {
+async function getData() {
+    const res = await fetch("http://localhost:3000/api/hello");
+
+    return await res.json()
+}
+
+export const Blogs: React.FC = async () => {
+    const blogs = await getData()
     return (
         <div className={styles.container}>
             {
-                Blogs_data.map((item) => {
-                    return <Blog item={item} key={item.id} />
+                blogs.map((item: Blogs_dataProps) => {
+                    return <Blog item={item} key={item.id}/>
                 })
             }
         </div>
