@@ -7,7 +7,7 @@ export const blog = [
             'in the Software without restriction, including without limitation ⌚the rights✅\n' +
             'to use, copy, modify, merge, publish, distribute, sublicense, and/or sell✅\n' +
             'copies of the Software,🖂\t and to permit persons to whom the Software is✅\n' +
-            'furnished to do so, subject to the following conditions:'
+            'furnished to do so, subject to the following conditions and etc:'
     },
     {
         id: 2,
@@ -25,7 +25,7 @@ export const blog = [
     },
     {
         id: 4,
-        title: 'MIT License 📈 ',
+        title: 'MIT License 📈 ✅',
         blog_text: 'A short and simple☕ permissive license with conditions only requiring preservation of copyright and license notices.✅\n' +
             'Licensed works, modifications, 🖂\tand larger works may be distributed ⌚under different terms and without source code'
     },
@@ -33,7 +33,7 @@ export const blog = [
         id: 5,
         title: 'LIABILITY 📈 ',
         blog_text: ' \'LIABILITY, ☕WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,✅\n\' +✅\n' +
-            '  \'OUT OF OR IN CONNECTION WITH THE SOFTWARE OR 🖂\tTHE USE OR OTHER⌚ DEALINGS IN THE✅\n\' +✅\n' +
+            '  \'OUT OF OR IN CONNECTION WITH THE SOFTWARE OR AND 🖂\tTHE USE OR OTHER⌚ DEALINGS IN THE✅\n\' +✅\n' +
             '  \'SOFTWARE.\''
     },
     {
@@ -64,7 +64,7 @@ export const blog = [
             'Understand English movies and TV shows 🖂\twithout☕ subtitles ✅\n' +
             'English listening tips✅\n' +
             'Podcast episodes Cara has recorded ✅\n' +
-            'Expert interviews on listening skills, language ⌚learning and living abroad✅\n' +
+            'Expert interviews on listening skills, language ⌚learning⌚ and living abroad✅\n' +
             'Language learning motivation and mindset✅\n' +
             'and much more.✅\n' +
             '\n' +

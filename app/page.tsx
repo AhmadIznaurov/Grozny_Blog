@@ -12,6 +12,3 @@ export default function Home() {
     </div>
   )
 }
-// next
-// react
-// typescript
