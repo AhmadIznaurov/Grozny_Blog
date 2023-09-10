@@ -1,5 +1,8 @@
 import './globals.scss'
 import type { Metadata } from 'next'
+import {Sidebar} from "@/components/Sidebar/Sidebar";
+import {Content} from "@/components/Content/Content";
+import React from "react";
 
 
 export const metadata: Metadata = {
@@ -14,7 +17,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+      <Sidebar />
+      {children}
+      </body>
     </html>
   )
 }
