@@ -3,3 +3,4 @@ export interface Blogs_dataProps {
     title: string
     blog_text: string
 }
+}

@@ -1,3 +1,4 @@
+"use client"
 import React from 'react';
 import './page.scss';
 import {Content} from "@/components/Content/Content";
@@ -10,5 +11,7 @@ export default function Home() {
      <Content />
     </div>
   )
+}
+
 }
 
