@@ -23,5 +23,9 @@ export const title_menu: Array<Title_menuType> = [
     {
         id: 5,
         title: "Full info about Grozny blog"
+    },
+    {
+        id: 6,
+        title: "Settings"
     }
 ]
