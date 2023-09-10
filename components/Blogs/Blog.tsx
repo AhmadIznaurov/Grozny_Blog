@@ -2,7 +2,6 @@ import React from 'react';
 import styles from '../../styles/blogs.module.scss';
 import Link from "next/link";
 
-
 interface BlogProps {
     item: {
         id: number
