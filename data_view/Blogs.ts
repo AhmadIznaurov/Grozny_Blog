@@ -1,4 +1,4 @@
-interface Blogs_dataProps {
+export interface Blogs_dataProps {
     id: number
     title: string
     blog_text: string

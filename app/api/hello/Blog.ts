@@ -1,4 +1,10 @@
-export const blog = [
+interface Blogs_dataProps {
+    id: number
+    title: string
+    blog_text: string
+}
+
+export const Blogs_data: Blogs_dataProps[] = [
     {
         id: 1,
         title: 'Grozny_Blog Production  📈 ☎',

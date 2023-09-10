@@ -1,6 +1,6 @@
 import {NextResponse} from "next/server";
-import {blog} from "@/app/api/hello/blog";
+import {Blogs_data} from "@/app/api/hello/Blog";
 
 export async function GET(request: Request) {
-    return  NextResponse.json(blog)
+    return  NextResponse.json(Blogs_data)
 }
