@@ -11,6 +11,7 @@ interface BlogProps {
 }
 
 export const Blog: React.FC<BlogProps> = ({item}) => {
+
     return (
         <div className={styles.blog}>
             <Link href={`/${item.id}`}>

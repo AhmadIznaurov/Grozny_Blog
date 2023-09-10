@@ -1,5 +1,8 @@
 import {Blogs_data} from "@/app/api/hello/Blogs";
 import {NextResponse} from "next/server";
+import {Blogs_data} from "@/app/api/hello/Blog";
+
+
 
 
 

@@ -5,6 +5,13 @@ import {Blogs_dataProps} from "@/data_view/Blogs";
 
 
 
+async function getBlogs() {
+    const res = await fetch("http://localhost:3000/api/hello");
+
+
+
+
+
 
 async function getBlogs() {
     const res = await fetch("http://localhost:3000/api/hello");
@@ -15,6 +22,11 @@ export const Blogs: React.FC = async () => {
     const Blogs_data = await getBlogs()
     return (
         <div className={styles.container}>
+            {
+                Blogs_data.map((item: Blogs_dataProps) => {
+                    return <Blog item={item} key={item.id}/>
+                })
+
                 {Blogs_data.map((item: Blogs_dataProps) => {
                    return <Blog item={item} key={item.id}/>;
                 },
